@@ -1,0 +1,123 @@
+*,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div,
+a,
+li,
+ul,
+ol,
+blockquote,
+pre,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  font-family: $font-family;
+  color: $color-grey;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: -2px;
+  @media (min-width: 768px) {
+  }
+  @media (min-width: 1024px) {
+  }
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  @media (min-width: 768px) {
+  }
+  @media (min-width: 1024px) {
+  }
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  @media (min-width: 768px) {
+  }
+  @media (min-width: 1024px) {
+  }
+}
+
+h4 {
+  text-transform: uppercase;
+  @media (min-width: 768px) {
+  }
+  @media (min-width: 1024px) {
+  }
+}
+
+p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  max-width: 540px;
+  @media (min-width: 768px) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+span {
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  @media (min-width: 768px) {
+  }
+  @media (min-width: 1024px) {
+  }
+}
+
+button {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 5px;
+  }
+}
